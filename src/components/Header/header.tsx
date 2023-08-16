@@ -8,7 +8,7 @@ const Header = () => {
         <Styled.NavList>
           <Styled.NavItem>
             <Styled.Links href="https://www.google.com.br">
-              Home ola
+              olaaaaaaaaaaaaaaaa
             </Styled.Links>
             </Styled.NavItem>
             <Styled.NavItem>
