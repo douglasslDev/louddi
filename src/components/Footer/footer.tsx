@@ -1,7 +1,8 @@
+import * as Styled from "./styles";
 const Footer = () => {
 
     return(
-        <div>Footer</div>
+        <Styled.Container>Footer</Styled.Container>
     )
 }
 
