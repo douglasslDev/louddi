@@ -1,4 +1,5 @@
 import * as Styled from "./styles";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Header = () => {
   return (
@@ -15,11 +16,7 @@ const Header = () => {
               Quem Somos
             </Styled.Links>
           </Styled.NavItem>
-          <Styled.NavItem>
-            <Styled.Links href="https://www.google.com.br">
-              Onde Estamos
-            </Styled.Links>
-          </Styled.NavItem>
+         
           <Styled.NavItem>
             <Styled.Links href="https://www.google.com.br">
               Colabore
@@ -33,19 +30,14 @@ const Header = () => {
           </Styled.NavItem>
         </Styled.NavList>
         </Styled.NavContainer>
-    
-      <Styled.Welcome>
-        <Styled.Tittle>Seja bem vindo</Styled.Tittle>
-        <Styled.Text>
-          “Pois vocês são salvos pela graça, por meio da fé, e isto não vem de
-          vocês, é dom de Deus; não por obras, para que ninguém se glorie.”{" "}
-          <p />
-          Efésios 2.8-9
-        </Styled.Text>
-      </Styled.Welcome>
-      <Styled.Where>
+        <Styled.WhereContainer>
+          <Styled.Where>
         Onde Estamos
-      </Styled.Where>
+        </Styled.Where>
+          <LocationOnIcon style={{ fontSize: '20px' }}/>
+        
+      </Styled.WhereContainer>
+    
       </Styled.HeaderContainer>
     </Styled.container>
   );
