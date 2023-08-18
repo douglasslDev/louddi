@@ -14,7 +14,6 @@ display: flex;
   height: 100%;
   flex-direction: column;
   align-items: center;
-  height: 400px;
   @media (min-width: 1024px) {
 
   display: flex;
@@ -46,7 +45,7 @@ export const NavContainer = styled.div`
 
 export const logoImage = styled.img`
   display: flex;
-  width: 130px;
+  width: 120px;
   height: 80px;
 
   @media (min-width: 1024px) {
@@ -92,11 +91,11 @@ display: flex;
   border-radius: 60px;
   align-items: center;
   justify-content: center;
-  margin-top: 130px;
+  margin-top: 80px;
   opacity: 75%;
   margin-bottom: 20px;
   margin-right: 10px;
-  padding: 10px 20px;
+  padding: 7px 10px;
   cursor: pointer;
   font-size: 15px;
   &:hover{
