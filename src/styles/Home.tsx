@@ -108,7 +108,7 @@ export const BackgroundLocationContainer = styled.div`
 
 export const collaborate = styled.div`
   display: flex;
-  min-height: 200px;
+  min-height: 220px;
 `;
 
 export const LocationTitle = styled.h1`
