@@ -1,5 +1,4 @@
 import * as Styled from "./styles";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Header = () => {
   return (
@@ -34,7 +33,7 @@ const Header = () => {
           <Styled.Where>
         Onde Estamos
         </Styled.Where>
-          <LocationOnIcon style={{ fontSize: '20px' }}/>
+          <Styled.IconWhere />
         
       </Styled.WhereContainer>
     
