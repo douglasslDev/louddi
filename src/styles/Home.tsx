@@ -106,52 +106,99 @@ export const BackgroundLocationContainer = styled.div`
   align-items: center;
 `;
 
-export const collaborate = styled.div`
-  display: flex;
-  min-height: 220px;
-`;
-
 export const LocationTitle = styled.h1`
-display: flex;
-color: white;
-margin-top: 20px;
+  display: flex;
+  color: white;
+  margin-top: 20px;
 `;
 export const LocationSubTitle = styled.h2`
-display: flex;
-color: white;
-margin-top: 20px;
-font-size: 35px;
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  font-size: 35px;
 `;
 export const contact = styled.div`
   display: flex;
   min-height: 400px;
 `;
 export const LocationAppsContainer = styled.div`
-display:flex;
-
-
+  display: flex;
 `;
 export const AppsLinks = styled.a`
-
   margin-top: 30px;
-  &:not(:last-child){
-  margin-right: 20px;}
-
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
 `;
 export const AppsImages = styled.img`
-background:white;
-width: 80px;
-border-radius: 50px;
-padding: 10px;
-
+  background: white;
+  width: 80px;
+  border-radius: 50px;
+  padding: 10px;
 `;
 export const Adress = styled.h2`
-display:flex;
-color: white;
-max-width: 270px;
-text-align: center;
-margin-top: 10px;
-margin-bottom: 20px;
+  display: flex;
+  color: white;
+  max-width: 270px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+`;
+export const CollaborateContainer = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+`;
+export const Collaborate = styled.h1`
+  display: flex;
+  margin-top: 20px;
+  font-size: 24px;
+  margin-bottom: 15px;
+  
+ 
 `;
 
+export const PixContainer = styled.div`
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
 
+`;
+export const PixLogo = styled.img`
+  display: flex;
+  width: 120px;
+  height: 50px;
+  margin-bottom: 15px;
+`;
+export const PixQrCode = styled.img`
+  display: flex;
+  width: 100px;
+  height: 100px;
+`;
+
+export const CollaborateTextdDescription = styled.h2`
+display:flex;
+font-size:12px;
+color: #888;
+`;
+export const CollaborateTextdInformation = styled.h1`
+display: flex;
+font-size: 14px;
+margin-bottom: 10px;
+`;
+
+export const BankContainer= styled.div`
+display: flex;
+text-align: center;
+
+
+`;
+export const Bank =styled.div`
+display:flex;
+flex-direction: column;
+align-items: center;
+&:not(:last-child){
+  margin-right: 20px;
+}
+`;
