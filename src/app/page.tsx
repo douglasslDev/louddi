@@ -25,7 +25,7 @@ const Home: React.FC = () => {
             13:47
           </Styled.WhoAreSubText>
         </Styled.WhoWeAre>
-        <Styled.contact>Contato</Styled.contact>
+        <Styled.contact>Section contact</Styled.contact>
 
         <Styled.Location>
           <Styled.BackgroundLocationContainer>
