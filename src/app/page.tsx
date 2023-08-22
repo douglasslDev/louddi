@@ -62,7 +62,7 @@ const Home: React.FC = () => {
         <Styled.CollaborateContainer>
           <Styled.Collaborate>Contribua nesta Obra</Styled.Collaborate>
           <Styled.PixContainer>
-            <Styled.PixLogo src="/images/pix.png" alt="logopix" />
+            <Styled.PixLogo src="/images/pix.png" alt="LogoPix" />
             <Styled.PixQrCode src="/images/QrCode.png" alt="QrCode" />
           </Styled.PixContainer>
           <Styled.CollaborateTextdDescription>
@@ -94,7 +94,7 @@ const Home: React.FC = () => {
             </Styled.Bank>
             <Styled.Bank>
             <Styled.CollaborateTextdDescription>
-              Conta
+              Conta Corrente
             </Styled.CollaborateTextdDescription>
             <Styled.CollaborateTextdInformation>
               99150-2

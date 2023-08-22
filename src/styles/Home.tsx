@@ -184,7 +184,7 @@ color: #888;
 `;
 export const CollaborateTextdInformation = styled.h1`
 display: flex;
-  font-size: 24px;
+  font-size: 18px;
 margin-bottom: 10px;
 `;
 
