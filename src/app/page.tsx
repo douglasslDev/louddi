@@ -62,7 +62,7 @@ const Home: React.FC = () => {
         <Styled.CollaborateContainer>
           <Styled.Collaborate>Contribua nesta Obra</Styled.Collaborate>
           <Styled.PixContainer>
-            <Styled.PixLogo src="/images/pix.png" alt="LogoPix" />
+            <Styled.PixLogo src="/images/pix2.png" alt="LogoPix" />
             <Styled.PixQrCode src="/images/QrCode.png" alt="QrCode" />
           </Styled.PixContainer>
           <Styled.CollaborateTextdDescription>
