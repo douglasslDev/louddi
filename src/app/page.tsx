@@ -72,7 +72,7 @@ const Home: React.FC = () => {
             Ministério Louvor ao Deus de Israel LOUDDI
           </Styled.CollaborateTextdInformation>
           <Styled.CollaborateTextdDescription>
-            Chave pix CNPj
+            Chave pix CNPJ
           </Styled.CollaborateTextdDescription>
           <Styled.CollaborateTextdInformation>
             48.705.282.0001-59

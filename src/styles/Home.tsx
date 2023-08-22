@@ -115,7 +115,7 @@ export const LocationSubTitle = styled.h2`
   display: flex;
   color: white;
   margin-top: 20px;
-  font-size: 35px;
+  font-size: 34px;
 `;
 export const contact = styled.div`
   display: flex;
@@ -152,7 +152,7 @@ export const CollaborateContainer = styled.div`
 export const Collaborate = styled.h1`
   display: flex;
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 34px;
   margin-bottom: 15px;
   
  
@@ -184,7 +184,7 @@ color: #888;
 `;
 export const CollaborateTextdInformation = styled.h1`
 display: flex;
-font-size: 14px;
+  font-size: 24px;
 margin-bottom: 10px;
 `;
 
