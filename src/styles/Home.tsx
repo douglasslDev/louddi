@@ -1,6 +1,8 @@
 "use client";
 
 import styled from "styled-components";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 export const Welcome = styled.div`
   display: flex;
@@ -13,8 +15,7 @@ export const Tittle = styled.h1`
   display: flex;
   color: black;
   font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 5px;
+  margin-top: 10px;
   @media (min-width: 1024px) {
     display: flex;
     color: black;
@@ -88,6 +89,57 @@ export const WhoAreSubText = styled.div`
   margin-bottom: 20px;
 `;
 
+export const SocialMediaContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const SocialMediaTitle =styled.h1`
+display:flex;
+font-size:34px;
+margin-top: 20px;
+margin-bottom: 10px;
+text-align: center;
+`;
+
+export const SocialMediaText= styled.h2`
+display:flex;
+text-align: center;
+`;
+
+export const SocialMediaImagesContainer=styled.div`
+
+display:flex;
+margin-bottom: 20px;
+margin-top: 20px;
+`;
+export const IconsLinks=styled.a`
+display: flex;
+border: black solid 1px;
+border-radius: 60px;
+padding: 8px;
+background: black;
+&:not(:last-child){
+  margin-right: 20px;
+}
+`;
+
+export const IconInstagram = styled(InstagramIcon)`
+color: white;
+width: 40px;
+height: 40px;
+`;
+
+export const IconFacebook = styled(FacebookIcon)`
+
+display:flex;
+color: white;
+width: 40px;
+height: 40px;
+`;
+
+
 export const Location = styled.div`
   display: flex;
   background-color: black;
@@ -117,10 +169,7 @@ export const LocationSubTitle = styled.h2`
   margin-top: 20px;
   font-size: 34px;
 `;
-export const contact = styled.div`
-  display: flex;
-  min-height: 400px;
-`;
+
 export const LocationAppsContainer = styled.div`
   display: flex;
 `;

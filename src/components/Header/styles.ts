@@ -90,7 +90,7 @@ export const WhereContainer = styled.div`
   justify-content: center;
   margin-top: 80px;
   opacity: 75%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-right: 10px;
   padding: 7px 10px;
   cursor: pointer;

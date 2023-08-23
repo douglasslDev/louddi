@@ -1,7 +1,10 @@
 import Header from "@/components/Header/header";
 import * as Styled from "./../styles/Home";
+import swal from 'sweetalert';
+
 
 const Home: React.FC = () => {
+  
   return (
     <>
       <Header />
@@ -25,8 +28,29 @@ const Home: React.FC = () => {
             13:47
           </Styled.WhoAreSubText>
         </Styled.WhoWeAre>
-        <Styled.contact>Section contact</Styled.contact>
-
+        <Styled.SocialMediaContainer>
+          <Styled.SocialMediaTitle>Siga-nos nas redes sociais
+</Styled.SocialMediaTitle>
+<Styled.SocialMediaText>Siga nossas redes sociais para ser notificado a respeito de cultos, conferências, reuniões e sermões disponíveis para a sua edificação.
+  </Styled.SocialMediaText>
+ <Styled.SocialMediaImagesContainer>
+<Styled.IconsLinks
+href="https://www.instagram.com/ministerio_louddi/"
+target="_blank">
+<Styled.IconInstagram />
+</Styled.IconsLinks>
+<Styled.IconsLinks
+href="www.google.com"
+target="_blank">      
+<Styled.IconFacebook />
+</Styled.IconsLinks>
+<Styled.IconsLinks
+href="www.google.com"
+target="_blank">
+<Styled.IconInstagram />
+</Styled.IconsLinks>
+</Styled.SocialMediaImagesContainer>
+</Styled.SocialMediaContainer>
         <Styled.Location>
           <Styled.BackgroundLocationContainer>
             <Styled.LocationSubTitle>Navegue até aqui</Styled.LocationSubTitle>
