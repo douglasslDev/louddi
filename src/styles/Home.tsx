@@ -101,11 +101,13 @@ font-size:34px;
 margin-top: 20px;
 margin-bottom: 10px;
 text-align: center;
+color: black;
 `;
 
 export const SocialMediaText= styled.h2`
 display:flex;
 text-align: center;
+color: black;
 `;
 
 export const SocialMediaImagesContainer=styled.div`
