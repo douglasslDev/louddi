@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           <Styled.Text>
             “Pois vocês são salvos pela graça, por meio da fé, e isto não vem de
             vocês, é dom de Deus; não por obras, para que ninguém se glorie.”
-            <p /> Efésios 2.8-9
+            <p />Efésios 2.8-9
           </Styled.Text>
         </Styled.Welcome>
         <Styled.WhoWeAre id="whoweare">
