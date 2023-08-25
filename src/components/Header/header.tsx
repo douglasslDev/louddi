@@ -8,10 +8,10 @@ const Header = () => {
         <Styled.logoImage src="/images/logo2.png" alt="logoIgreja" />
         <Styled.NavList>
           <Styled.NavItem>
-            <Styled.Links href="https://www.google.com.br">Programação</Styled.Links>
+            <Styled.Links href="#">Programação</Styled.Links>
           </Styled.NavItem>
           <Styled.NavItem>
-            <Styled.Links href="https://www.google.com.br">
+            <Styled.Links href="#whoweare">
               Quem Somos
             </Styled.Links>
           </Styled.NavItem>
@@ -19,14 +19,14 @@ const Header = () => {
           
          
           <Styled.NavItem>
-            <Styled.Links href="https://www.google.com.br">
+            <Styled.Links href="#collaborate">
               Colabore
             </Styled.Links>
           </Styled.NavItem>
         </Styled.NavList>
         
         </Styled.NavContainer>
-        <Styled.WhereContainer>
+        <Styled.WhereContainer href="#location" >
           <Styled.Where>
         Onde Estamos
         </Styled.Where>

@@ -10,7 +10,7 @@ const Home: React.FC = () => {
 <Header/>
 
       <main className="flex min-h-screen flex-col ">
-        <Styled.Welcome>
+        <Styled.Welcome id="welcome">
           <Styled.Tittle>Seja bem vindo!</Styled.Tittle>
           <Styled.Text>
             “Pois vocês são salvos pela graça, por meio da fé, e isto não vem de
@@ -18,7 +18,7 @@ const Home: React.FC = () => {
             <p /> Efésios 2.8-9
           </Styled.Text>
         </Styled.Welcome>
-        <Styled.WhoWeAre>
+        <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
           <Styled.WhoWeAreImage src="./images/WhoWeAre.jpg" />
           <Styled.WhoWeAreText>
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
             13:47
           </Styled.WhoAreSubText>
         </Styled.WhoWeAre>
-        <Styled.SocialMediaContainer>
+        <Styled.SocialMediaContainer id="SocialMedia"> 
           <Styled.SocialMediaTitle>Siga-nos nas redes sociais
 </Styled.SocialMediaTitle>
 <Styled.SocialMediaText>Siga nossas redes sociais para ser notificado a respeito de cultos, conferências, reuniões e sermões disponíveis para a sua edificação.
@@ -41,18 +41,18 @@ target="_blank">
 <Styled.IconInstagram />
 </Styled.IconsLinks>
 <Styled.IconsLinks
-href="www.google.com"
+href="#"
 target="_blank">      
 <Styled.IconFacebook />
 </Styled.IconsLinks>
 <Styled.IconsLinks
-href="www.google.com"
+href="#"
 target="_blank">
-<Styled.IconInstagram />
+<Styled.IconYoutube />
 </Styled.IconsLinks>
 </Styled.SocialMediaImagesContainer>
 </Styled.SocialMediaContainer>
-        <Styled.Location>
+        <Styled.Location id="location">
           <Styled.BackgroundLocationContainer>
             <Styled.LocationSubTitle>Navegue até aqui</Styled.LocationSubTitle>
 
@@ -84,7 +84,7 @@ target="_blank">
             </Styled.Adress>
           </Styled.BackgroundLocationContainer>
         </Styled.Location>
-        <Styled.CollaborateContainer>
+        <Styled.CollaborateContainer id="collaborate">
           <Styled.Collaborate>Contribua nesta Obra</Styled.Collaborate>
           <Styled.PixContainer>
             <Styled.PixLogo src="/images/pix2.png" alt="LogoPix" />

@@ -3,8 +3,8 @@
 import styled from "styled-components";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
-
-export const Welcome = styled.div`
+import YoutubeIcon from '@mui/icons-material/Youtube';
+export const Welcome = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -45,7 +45,7 @@ export const Text = styled.h3`
   }
 `;
 
-export const WhoWeAre = styled.div`
+export const WhoWeAre = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,7 +57,7 @@ export const WhoWeAre = styled.div`
 
 export const WhoWeAreTitle = styled.h1`
   display: flex;
-  color: white;
+  color: #d3d3d3;
   font-size: 30px;
   margin-top: 25px;
   margin-bottom: 10px;
@@ -74,7 +74,7 @@ export const WhoWeAreImage = styled.img`
 export const WhoWeAreText = styled.h2`
   display: flex;
   text-align: center;
-  color: white;
+  color: #d3d3d3;
   margin-top: 15px;
   margin-bottom: 15px;
 `;
@@ -89,7 +89,7 @@ export const WhoAreSubText = styled.div`
   margin-bottom: 20px;
 `;
 
-export const SocialMediaContainer = styled.div`
+export const SocialMediaContainer = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,6 +108,7 @@ export const SocialMediaText= styled.h2`
 display:flex;
 text-align: center;
 color: black;
+padding: 0px 20px;
 `;
 
 export const SocialMediaImagesContainer=styled.div`
@@ -140,9 +141,15 @@ color: white;
 width: 40px;
 height: 40px;
 `;
+export const IconYoutube = styled(YoutubeIcon)`
 
+display:flex;
+color: white;
+width: 40px;
+height: 40px;
+`;
 
-export const Location = styled.div`
+export const Location = styled.section`
   display: flex;
   background-color: black;
   border-radius: 50px 0px 50px 0px;
@@ -180,12 +187,15 @@ export const AppsLinks = styled.a`
   &:not(:last-child) {
     margin-right: 20px;
   }
+
+  
 `;
 export const AppsImages = styled.img`
   background: white;
   width: 80px;
   border-radius: 50px;
   padding: 10px;
+ 
 `;
 export const Adress = styled.h2`
   display: flex;
@@ -195,7 +205,7 @@ export const Adress = styled.h2`
   margin-top: 10px;
   margin-bottom: 20px;
 `;
-export const CollaborateContainer = styled.div`
+export const CollaborateContainer = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -224,8 +234,8 @@ export const PixLogo = styled.img`
 `;
 export const PixQrCode = styled.img`
   display: flex;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
 `;
 
 export const CollaborateTextdDescription = styled.h2`

@@ -3,15 +3,17 @@ import Link from "next/link";
 import styled from "styled-components";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
-export const container = styled.div``;
+export const container = styled.div`
+display:flex;
+
+`;
 
 export const HeaderContainer = styled.div`
   display: flex;
   background-image: url("/images/background5.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  background-size: cover ;
+width: 100%;
+background-repeat: no-repeat;
   flex-direction: column;
   align-items: center;
 
@@ -45,7 +47,7 @@ export const NavContainer = styled.div`
 export const logoImage = styled.img`
   display: flex;
   width: 120px;
-  height: 80px;
+  height: 70px;
 
   @media (min-width: 1024px) {
     display: flex;
@@ -58,19 +60,22 @@ export const NavList = styled.ul`
 `;
 export const NavItem = styled.li`
   display: flex;
-  color: white;
+  color: black;
+  font-weight: 500;
   margin-right: 10px;
   font-size: 12px;
   opacity: 80%;
   &:hover {
-    border-bottom: solid white 1px;
+    border-bottom: solid #d3d3d3 1px;
     transition: 0.3;
     opacity: 100%;
   }
   @media (min-width: 1024px) {
     font-size: 25px;
     display: flex;
-    color: white;
+    color: black;
+    font-weight: 600;
+
     margin-right: 25px;
     &:hover {
       border-bottom: solid white 1px;
@@ -81,7 +86,7 @@ export const NavItem = styled.li`
 
 export const Links = styled(Link)``;
 
-export const WhereContainer = styled.div`
+export const WhereContainer = styled(Link)`
   display: flex;
   color: white;
   border: solid;
