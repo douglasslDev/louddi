@@ -3,7 +3,7 @@
 import styled from "styled-components";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import YoutubeIcon from '@mui/icons-material/Youtube';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 export const Welcome = styled.section`
   display: flex;
   align-items: center;
@@ -141,7 +141,7 @@ color: white;
 width: 40px;
 height: 40px;
 `;
-export const IconYoutube = styled(YoutubeIcon)`
+export const IconYoutube = styled(YouTubeIcon)`
 
 display:flex;
 color: white;
