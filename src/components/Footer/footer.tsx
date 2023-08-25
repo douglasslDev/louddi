@@ -18,7 +18,7 @@ const Footer = () => {
               <Styled.Links href="#whoweare">Quem Somos</Styled.Links>
             </Styled.NavItems>
             <Styled.NavItems>
-              <Styled.Links href="#">Colabore</Styled.Links>
+              <Styled.Links href="#collaborate">Colabore</Styled.Links>
             </Styled.NavItems>
           </Styled.NavContainer>
           <Styled.NavContainer>
