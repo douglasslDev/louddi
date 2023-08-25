@@ -15,7 +15,7 @@ const Footer = () => {
               <Styled.Links href="#">Programação</Styled.Links>
             </Styled.NavItems>
             <Styled.NavItems>
-              <Styled.Links href="#">Quem Somos</Styled.Links>
+              <Styled.Links href="#whoweare">Quem Somos</Styled.Links>
             </Styled.NavItems>
             <Styled.NavItems>
               <Styled.Links href="#">Colabore</Styled.Links>
