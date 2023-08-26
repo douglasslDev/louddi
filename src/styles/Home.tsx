@@ -4,6 +4,9 @@ import styled from "styled-components";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
+import Link from "next/link";
+
 export const Welcome = styled.section`
   display: flex;
   align-items: center;
@@ -262,4 +265,27 @@ align-items: center;
 &:not(:last-child){
   margin-right: 20px;
 }
+`;
+
+export const BottonTop =styled.div`
+position: fixed;
+bottom: 50px;
+right: 30px;
+border-radius: 50px;
+background-color: black;
+opacity:60%;
+&:hover{
+  opacity: 100%;
+
+}
+
+`;
+export const LinkToTop= styled(Link)`
+display:flex;
+`;
+
+export const Seta = styled(ArrowUpwardRoundedIcon)`
+width: 50px;
+height: 50px;
+color: #888;
 `;

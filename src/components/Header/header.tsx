@@ -1,17 +1,34 @@
+'use client';
+
 import * as Styled from "./styles";
 
+
+
 const Header = () => {
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    // first prevent the default behavior
+    e.preventDefault();
+    // get the href and remove everything before the hash (#)
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    // get the element by id and use scrollIntoView
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
   return (
+    
     <Styled.container>
       <Styled.HeaderContainer>
         <Styled.NavContainer>
         <Styled.logoImage src="/images/logo2.png" alt="logoIgreja" />
         <Styled.NavList>
           <Styled.NavItem>
-            <Styled.Links href="#">Programação</Styled.Links>
+            <Styled.Links href="#"onClick={handleScroll}>Programação</Styled.Links>
           </Styled.NavItem>
           <Styled.NavItem>
-            <Styled.Links href="#whoweare">
+            <Styled.Links href="#whoweare" onClick={handleScroll}>
               Quem Somos
             </Styled.Links>
           </Styled.NavItem>
@@ -19,14 +36,14 @@ const Header = () => {
           
          
           <Styled.NavItem>
-            <Styled.Links href="#collaborate">
+            <Styled.Links href="#collaborate" onClick={handleScroll}>
               Colabore
             </Styled.Links>
           </Styled.NavItem>
         </Styled.NavList>
         
         </Styled.NavContainer>
-        <Styled.WhereContainer href="#location" >
+        <Styled.WhereContainer href="#location" onClick={handleScroll}>
           <Styled.Where>
         Onde Estamos
         </Styled.Where>

@@ -84,7 +84,10 @@ export const NavItem = styled.li`
   }
 `;
 
-export const Links = styled(Link)``;
+export const Links= styled(Link)`
+
+
+`;
 
 export const WhereContainer = styled(Link)`
   display: flex;
@@ -100,6 +103,7 @@ export const WhereContainer = styled(Link)`
   padding: 7px 10px;
   cursor: pointer;
   font-size: 15px;
+
   &:hover {
     opacity: 100%;
   }

@@ -1,9 +1,26 @@
+'use client';
+
 import Header from "@/components/Header/header";
 import * as Styled from "./../styles/Home";
 import Footer from "@/components/Footer/footer";
 
 
+
 const Home: React.FC = () => {
+  
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    // first prevent the default behavior
+    e.preventDefault();
+    // get the href and remove everything before the hash (#)
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    // get the element by id and use scrollIntoView
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+  
   
   return (
     <>
@@ -20,7 +37,7 @@ const Home: React.FC = () => {
         </Styled.Welcome>
         <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
-          <Styled.WhoWeAreImage src="./images/WhoWeAre.jpg" />
+          <Styled.WhoWeAreImage src="./images/WhoWeAre2.jpg" />
           <Styled.WhoWeAreText>
             Em breve haverá mais detalhes sobre a história do Ministério Louddi
           </Styled.WhoWeAreText>
@@ -52,6 +69,7 @@ target="_blank">
 </Styled.IconsLinks>
 </Styled.SocialMediaImagesContainer>
 </Styled.SocialMediaContainer>
+
         <Styled.Location id="location">
           <Styled.BackgroundLocationContainer>
             <Styled.LocationSubTitle>Navegue até aqui</Styled.LocationSubTitle>
@@ -127,6 +145,7 @@ target="_blank">
             </Styled.Bank>
           </Styled.BankContainer>
         </Styled.CollaborateContainer>
+        <Styled.BottonTop><Styled.LinkToTop href="#" ><Styled.Seta/></Styled.LinkToTop></Styled.BottonTop>
         <Footer/>
       </main>
     </>
