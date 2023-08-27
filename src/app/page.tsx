@@ -27,14 +27,33 @@ const Home: React.FC = () => {
 <Header/>
 
       <main className="flex min-h-screen flex-col ">
-        <Styled.Welcome id="welcome">
-          <Styled.Tittle>Seja bem vindo!</Styled.Tittle>
+        <Styled.Programming id="Programação">
+          
+          <Styled.TittleSection>Programação</Styled.TittleSection>
+          <Styled.programmingContainer>
+            <Styled.programmingSections>
+          <Styled.Tittle>Domingo</Styled.Tittle>
+<Styled.Subtitles>EBD</Styled.Subtitles>
           <Styled.Text>
-            “Pois vocês são salvos pela graça, por meio da fé, e isto não vem de
-            vocês, é dom de Deus; não por obras, para que ninguém se glorie.”
-            <p />Efésios 2.8-9
+          09h
           </Styled.Text>
-        </Styled.Welcome>
+          <Styled.Subtitles>Culto de Celebração</Styled.Subtitles>
+          <Styled.Text>
+          18h
+          </Styled.Text>
+          </Styled.programmingSections>
+          <Styled.programmingSections>
+
+          <Styled.Tittle>Quinta-Feira</Styled.Tittle>
+<Styled.Subtitles>Culto de oração e ensino </Styled.Subtitles>
+          <Styled.Text>
+          20h
+          </Styled.Text>
+          </Styled.programmingSections>
+
+          </Styled.programmingContainer>
+
+        </Styled.Programming>
         <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
           <Styled.WhoWeAreImage src="./images/WhoWeAre2.jpg" />

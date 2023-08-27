@@ -25,7 +25,7 @@ const Header = () => {
         <Styled.logoImage src="/images/logo2.png" alt="logoIgreja" />
         <Styled.NavList>
           <Styled.NavItem>
-            <Styled.Links href="#"onClick={handleScroll}>Programação</Styled.Links>
+            <Styled.Links href="#Programação"onClick={handleScroll}>Programação</Styled.Links>
           </Styled.NavItem>
           <Styled.NavItem>
             <Styled.Links href="#whoweare" onClick={handleScroll}>

@@ -7,18 +7,43 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
 import Link from "next/link";
 
-export const Welcome = styled.section`
+export const Programming = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: 25px;
   padding: 0px 10px;
+  margin-top: 20px;
+
+`;
+
+export const TittleSection = styled.div`
+display:flex;
+font-size: 28px;
+margin-bottom: 10px;
+`;
+export const programmingContainer=styled.div`
+display:flex;
+`;
+export const programmingSections = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+border:  1px ;
+padding: 10px;
+text-align: center;
+width: 170px;
+border-radius: 30px;
+background-color: rgba(10,23,55,0.1);
+&:not(:last-child){
+  margin-right: 10px;
+
+}
 `;
 export const Tittle = styled.h1`
   display: flex;
   color: black;
-  font-size: 20px;
-  margin-top: 10px;
+  font-weight: 700;
   @media (min-width: 1024px) {
     display: flex;
     color: black;
@@ -27,15 +52,21 @@ export const Tittle = styled.h1`
     margin-bottom: 25px;
   }
 `;
+export const Subtitles=styled.h2`
+display: flex;
+font-weight: 500;
+font-size: 14px;
+`;
+
 
 export const Text = styled.h3`
   display: flex;
   color: black;
+  font-size: 12px;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin-top: 20px;
 
   @media (min-width: 1024px) {
     display: flex;
