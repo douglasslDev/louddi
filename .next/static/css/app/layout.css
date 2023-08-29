@@ -590,6 +590,12 @@ video {
     max-width: 1536px;
   }
 }
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
 .flex {
   display: flex;
 }
@@ -601,6 +607,9 @@ video {
 }
 .border {
   border-width: 1px;
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
