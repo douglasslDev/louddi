@@ -17,6 +17,7 @@ export const Programming = styled.section`
 
 `;
 
+
 export const TittleSection = styled.div`
 display:flex;
 font-size: 28px;
@@ -30,10 +31,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 border:  1px ;
-padding: 10px;
+padding: 15px 5px 5px 5px;
 text-align: center;
-width: 170px;
-border-radius: 30px;
+width: 180px;
+height: 130px;
+border-radius: 40px;
 background-color: rgba(10,23,55,0.1);
 &:not(:last-child){
   margin-right: 10px;
@@ -77,6 +79,10 @@ export const Text = styled.h3`
     max-width: 800px;
     flex-direction: column;
   }
+`;
+export const CarouselContainer = styled.div`
+display:flex;
+padding-top: 20px;
 `;
 
 export const WhoWeAre = styled.section`

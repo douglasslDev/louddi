@@ -3,6 +3,7 @@
 import Header from "@/components/Header/header";
 import * as Styled from "./../styles/Home";
 import Footer from "@/components/Footer/footer";
+import Slideshow from "@/components/Carousel/carousel";
 
 
 
@@ -29,11 +30,11 @@ const Home: React.FC = () => {
       <main className="flex min-h-screen flex-col ">
         <Styled.Programming id="Programação">
           
-          <Styled.TittleSection>Programação</Styled.TittleSection>
+          <Styled.TittleSection>Nossos Cultos</Styled.TittleSection>
           <Styled.programmingContainer>
             <Styled.programmingSections>
           <Styled.Tittle>Domingo</Styled.Tittle>
-<Styled.Subtitles>EBD</Styled.Subtitles>
+<Styled.Subtitles>Escola Biblica Dominical</Styled.Subtitles>
           <Styled.Text>
           09h
           </Styled.Text>
@@ -49,11 +50,18 @@ const Home: React.FC = () => {
           <Styled.Text>
           20h
           </Styled.Text>
+          
           </Styled.programmingSections>
 
           </Styled.programmingContainer>
-
+          
         </Styled.Programming>
+    
+
+        <Slideshow/>
+
+        
+         
         <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
           <Styled.WhoWeAreImage src="./images/WhoWeAre2.jpg" />
