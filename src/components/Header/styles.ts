@@ -4,16 +4,16 @@ import styled from "styled-components";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export const container = styled.div`
-display:flex;
-
+  display: flex;
+  
 `;
 
 export const HeaderContainer = styled.div`
   display: flex;
   background-image: url("/images/background5.jpg");
-  background-size: cover ;
-width: 100%;
-background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
   flex-direction: column;
   align-items: center;
 
@@ -21,6 +21,7 @@ background-repeat: no-repeat;
     display: flex;
     background-image: url("/images/background5.jpg");
     background-size: cover;
+background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -40,7 +41,8 @@ export const NavContainer = styled.div`
   @media (min-width: 1024px) {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 30px;
   }
 `;
 
@@ -55,9 +57,11 @@ export const logoImage = styled.img`
     height: 180px;
   }
 `;
+
 export const NavList = styled.ul`
   display: flex;
 `;
+
 export const NavItem = styled.li`
   display: flex;
   color: black;
@@ -66,7 +70,7 @@ export const NavItem = styled.li`
   font-size: 12px;
   opacity: 80%;
   &:hover {
-    border-bottom: solid #d3d3d3 1px;
+    border-bottom: solid black 1px;
     transition: 0.3;
     opacity: 100%;
   }
@@ -78,16 +82,13 @@ export const NavItem = styled.li`
 
     margin-right: 25px;
     &:hover {
-      border-bottom: solid white 1px;
+      border-bottom: solid black 1px;
       transition: 0.3;
     }
   }
 `;
 
-export const Links= styled(Link)`
-
-
-`;
+export const Links = styled(Link)``;
 
 export const WhereContainer = styled(Link)`
   display: flex;

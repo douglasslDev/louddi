@@ -24,37 +24,37 @@ const Home: React.FC = () => {
       <Header />
 
       <main className="flex min-h-screen flex-col ">
-        <Styled.Programming id="Programação">
-          <Styled.TittleSection>Nossos Cultos</Styled.TittleSection>
-          <Styled.programmingContainer>
-            <Styled.programmingSections>
-              <Styled.Tittle>QUA</Styled.Tittle>
-              <Styled.DescripitionContainer>
-              <Styled.Subtitles>Culto de oração e ensino</Styled.Subtitles>
-              <Styled.Text>20h</Styled.Text>
-              </Styled.DescripitionContainer>
-            </Styled.programmingSections>
+        <Styled.OurCultsSection id="Programação">
+          <Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>
+          <Styled.OurCultsContainer>
+            <Styled.CultsContainer>
+              <Styled.TittleDescripitionCults>QUA</Styled.TittleDescripitionCults>
+              <Styled.DescripitionCultsContainer>
+              <Styled.SubTittleDescripitionCults>Culto de oração e ensino</Styled.SubTittleDescripitionCults>
+              <Styled.TextDescripitionCults>20h</Styled.TextDescripitionCults>
+              </Styled.DescripitionCultsContainer>
+            </Styled.CultsContainer>
 
-            <Styled.programmingSections>
-              <Styled.Tittle>DOM</Styled.Tittle>
-              <Styled.DescripitionContainer>
+            <Styled.CultsContainer>
+              <Styled.TittleDescripitionCults>DOM</Styled.TittleDescripitionCults>
+              <Styled.DescripitionCultsContainer>
 
-              <Styled.Subtitles>Escola Biblíca Dominical</Styled.Subtitles>
-              <Styled.Text>09h</Styled.Text>
-              </Styled.DescripitionContainer>
+              <Styled.SubTittleDescripitionCults>Escola Biblíca Dominical</Styled.SubTittleDescripitionCults>
+              <Styled.TextDescripitionCults>09h</Styled.TextDescripitionCults>
+              </Styled.DescripitionCultsContainer>
 
-              </Styled.programmingSections>
-              <Styled.programmingSections>
-              <Styled.Tittle>DOM</Styled.Tittle>
-              <Styled.DescripitionContainer>
+              </Styled.CultsContainer>
+              <Styled.CultsContainer>
+              <Styled.TittleDescripitionCults>DOM</Styled.TittleDescripitionCults>
+              <Styled.DescripitionCultsContainer>
 
-              <Styled.Subtitles>Culto de Celebração</Styled.Subtitles>
-              <Styled.Text>18h</Styled.Text>
-              </Styled.DescripitionContainer>
+              <Styled.SubTittleDescripitionCults>Culto de Celebração</Styled.SubTittleDescripitionCults>
+              <Styled.TextDescripitionCults>18h</Styled.TextDescripitionCults>
+              </Styled.DescripitionCultsContainer>
 
-            </Styled.programmingSections>
-          </Styled.programmingContainer>
-        </Styled.Programming>
+            </Styled.CultsContainer>
+          </Styled.OurCultsContainer>
+        </Styled.OurCultsSection>
 
         <Slideshow />
 
