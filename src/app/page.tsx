@@ -1,14 +1,11 @@
-'use client';
+"use client";
 
 import Header from "@/components/Header/header";
 import * as Styled from "./../styles/Home";
 import Footer from "@/components/Footer/footer";
 import Slideshow from "@/components/Carousel/carousel";
 
-
-
 const Home: React.FC = () => {
-  
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     // first prevent the default behavior
     e.preventDefault();
@@ -21,47 +18,46 @@ const Home: React.FC = () => {
       behavior: "smooth",
     });
   };
-  
-  
+
   return (
     <>
-<Header/>
+      <Header />
 
       <main className="flex min-h-screen flex-col ">
         <Styled.Programming id="Programação">
-          
           <Styled.TittleSection>Nossos Cultos</Styled.TittleSection>
           <Styled.programmingContainer>
             <Styled.programmingSections>
-          <Styled.Tittle>Domingo</Styled.Tittle>
-<Styled.Subtitles>Escola Biblica Dominical</Styled.Subtitles>
-          <Styled.Text>
-          09h
-          </Styled.Text>
-          <Styled.Subtitles>Culto de Celebração</Styled.Subtitles>
-          <Styled.Text>
-          18h
-          </Styled.Text>
-          </Styled.programmingSections>
-          <Styled.programmingSections>
+              <Styled.Tittle>QUA</Styled.Tittle>
+              <Styled.DescripitionContainer>
+              <Styled.Subtitles>Culto de oração e ensino</Styled.Subtitles>
+              <Styled.Text>20h</Styled.Text>
+              </Styled.DescripitionContainer>
+            </Styled.programmingSections>
 
-          <Styled.Tittle>Quinta-Feira</Styled.Tittle>
-<Styled.Subtitles>Culto de oração e ensino </Styled.Subtitles>
-          <Styled.Text>
-          20h
-          </Styled.Text>
-          
-          </Styled.programmingSections>
+            <Styled.programmingSections>
+              <Styled.Tittle>DOM</Styled.Tittle>
+              <Styled.DescripitionContainer>
 
+              <Styled.Subtitles>Escola Biblíca Dominical</Styled.Subtitles>
+              <Styled.Text>09h</Styled.Text>
+              </Styled.DescripitionContainer>
+
+              </Styled.programmingSections>
+              <Styled.programmingSections>
+              <Styled.Tittle>DOM</Styled.Tittle>
+              <Styled.DescripitionContainer>
+
+              <Styled.Subtitles>Culto de Celebração</Styled.Subtitles>
+              <Styled.Text>18h</Styled.Text>
+              </Styled.DescripitionContainer>
+
+            </Styled.programmingSections>
           </Styled.programmingContainer>
-          
         </Styled.Programming>
-    
 
-        <Slideshow/>
+        <Slideshow />
 
-        
-         
         <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
           <Styled.WhoWeAreImage src="./images/WhoWeAre2.jpg" />
@@ -73,29 +69,29 @@ const Home: React.FC = () => {
             13:47
           </Styled.WhoAreSubText>
         </Styled.WhoWeAre>
-        <Styled.SocialMediaContainer id="SocialMedia"> 
-          <Styled.SocialMediaTitle>Siga-nos nas redes sociais
-</Styled.SocialMediaTitle>
-<Styled.SocialMediaText>Siga nossas redes sociais para ser notificado a respeito de cultos, conferências, reuniões e sermões disponíveis para a sua edificação.
-  </Styled.SocialMediaText>
- <Styled.SocialMediaImagesContainer>
-<Styled.IconsLinks
-href="https://www.instagram.com/ministerio_louddi/"
-target="_blank">
-<Styled.IconInstagram />
-</Styled.IconsLinks>
-<Styled.IconsLinks
-href="#"
-target="_blank">      
-<Styled.IconFacebook />
-</Styled.IconsLinks>
-<Styled.IconsLinks
-href="#"
-target="_blank">
-<Styled.IconYoutube />
-</Styled.IconsLinks>
-</Styled.SocialMediaImagesContainer>
-</Styled.SocialMediaContainer>
+        <Styled.SocialMediaContainer id="SocialMedia">
+          <Styled.SocialMediaTitle>
+            Siga-nos nas redes sociais
+          </Styled.SocialMediaTitle>
+          <Styled.SocialMediaText>
+            Siga nossas redes sociais para ser notificado a respeito de cultos,
+            conferências, reuniões e sermões disponíveis para a sua edificação.
+          </Styled.SocialMediaText>
+          <Styled.SocialMediaImagesContainer>
+            <Styled.IconsLinks
+              href="https://www.instagram.com/ministerio_louddi/"
+              target="_blank"
+            >
+              <Styled.IconInstagram />
+            </Styled.IconsLinks>
+            <Styled.IconsLinks href="#" target="_blank">
+              <Styled.IconFacebook />
+            </Styled.IconsLinks>
+            <Styled.IconsLinks href="#" target="_blank">
+              <Styled.IconYoutube />
+            </Styled.IconsLinks>
+          </Styled.SocialMediaImagesContainer>
+        </Styled.SocialMediaContainer>
 
         <Styled.Location id="location">
           <Styled.BackgroundLocationContainer>
@@ -155,25 +151,29 @@ target="_blank">
           </Styled.CollaborateTextdInformation>
           <Styled.BankContainer>
             <Styled.Bank>
-            <Styled.CollaborateTextdDescription>
-              Agência
-            </Styled.CollaborateTextdDescription>
-            <Styled.CollaborateTextdInformation>
-              5655
-            </Styled.CollaborateTextdInformation>
+              <Styled.CollaborateTextdDescription>
+                Agência
+              </Styled.CollaborateTextdDescription>
+              <Styled.CollaborateTextdInformation>
+                5655
+              </Styled.CollaborateTextdInformation>
             </Styled.Bank>
             <Styled.Bank>
-            <Styled.CollaborateTextdDescription>
-              Conta Corrente
-            </Styled.CollaborateTextdDescription>
-            <Styled.CollaborateTextdInformation>
-              99150-2
-            </Styled.CollaborateTextdInformation>
+              <Styled.CollaborateTextdDescription>
+                Conta Corrente
+              </Styled.CollaborateTextdDescription>
+              <Styled.CollaborateTextdInformation>
+                99150-2
+              </Styled.CollaborateTextdInformation>
             </Styled.Bank>
           </Styled.BankContainer>
         </Styled.CollaborateContainer>
-        <Styled.BottonTop><Styled.LinkToTop href="#" ><Styled.Seta/></Styled.LinkToTop></Styled.BottonTop>
-        <Footer/>
+        <Styled.BottonTop>
+          <Styled.LinkToTop href="#">
+            <Styled.Seta />
+          </Styled.LinkToTop>
+        </Styled.BottonTop>
+        <Footer />
       </main>
     </>
   );
