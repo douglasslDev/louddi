@@ -10,7 +10,7 @@ export const OurCultsSection = styled.section`
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-  padding: 0px 0px;
+  padding: 0px 20px;
   margin-top: 20px;
 
   @media (min-width: 1024px) {
@@ -32,47 +32,29 @@ justify-content:space-evenly;
   }
 `;
 
-export const CultsContainer = styled.div`
+export const CultsContainer = styled.ul`
   display: flex;
-  align-items: center;
-  border: 1px;
-  padding: 10px 5px 5px 20px;
-  text-align: center;
-  margin-bottom: 20px;
-  background: linear-gradient(180deg, rgba(7,34,71,1) 2%, rgba(17,64,104,1) 25%, rgba(47,148,196,1) 66%);
-
-  opacity:0.8;
-  border-radius: 0px 40px 40px 0px;
-
-  &:nth-child(1) {
-    max-width: 340px;
-  }
-  &:nth-child(2) {
-    max-width: 320px;
-  }
-
-  &:nth-child(3) {
-    max-width: 280px;
-  }
+flex-direction: column;
 
   @media (min-width: 1024px) {
     display: flex;
-    align-items: center;
-    border: 1px;
-    padding: 30px;
-    text-align: center;
-    min-width: 300px;
-    background: #a9a9a9;
-    margin-bottom: 20px;
-    border-radius: 60px;
   }
+`;
+
+export const LineHorizontal = styled.div`
+border-bottom-width: 1px;
+  width: 300px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  background-color: linear-gradient(180deg, rgba(7,34,71,1) 2%, rgba(17,64,104,1) 25%, rgba(47,148,196,1) 66%);
+
 `;
 
 export const TitleOurCultsSection = styled.div`
   display: flex;
   font-size: 28px;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-left: 20px;
   @media (min-width: 1024px) {
     display: flex;
@@ -85,21 +67,28 @@ export const TitleOurCultsSection = styled.div`
   }
 `;
 
-export const DescripitionCultsContainer = styled.div`
+export const DescripitionCultsContainer = styled.li`
   display: flex;
-  flex-direction: column;
-  align-items: baseline;
+  flex-direction: row;
+  align-items: center;
   @media (min-width: 1024px) {
     display: flex;
   flex-direction: column;
   align-items: baseline;
+  margin-bottom: 20px;
   }
+`;
+export const DescriptionCults = styled.div`
+  display: flex;
+flex-direction: column;
+align-items: baseline;
 `;
 
 export const TittleDescripitionCults = styled.h1`
   display: flex;
   color: black;
   margin-right: 20px;
+  font-size: 20px;
   @media (min-width: 1024px) {
     display: flex;
     color: black;

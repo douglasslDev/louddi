@@ -18,47 +18,68 @@ const Home: React.FC = () => {
       behavior: "smooth",
     });
   };
+const data =[
+ {
+  dia:"QUA",
+  culto:"Culto de oração e ensino",
+  horario:"20h",
+ },
+ {
+  dia:"DOM",
+  culto:"Escola Biblíca Dominical",
+  horario:"20h",
+ },
+ {
+  dia:"DOM",
+  culto:"Culto de Celebração",
+  horario:"18h",
+ },
+]
 
   return (
     <>
       <Header />
 
       <main className="flex min-h-screen flex-col ">
-        <Styled.OurCultsSection id="Eventos">
-          <Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>
-          <Styled.OurCultsContainer>
-            <Styled.CultsContainer>
-              <Styled.TittleDescripitionCults>QUA</Styled.TittleDescripitionCults>
-              <Styled.DescripitionCultsContainer>
-              <Styled.SubTittleDescripitionCults>Culto de oração e ensino</Styled.SubTittleDescripitionCults>
-              <Styled.TextDescripitionCults>20h</Styled.TextDescripitionCults>
-              </Styled.DescripitionCultsContainer>
-            </Styled.CultsContainer>
 
-            <Styled.CultsContainer>
-              <Styled.TittleDescripitionCults>DOM</Styled.TittleDescripitionCults>
-              <Styled.DescripitionCultsContainer>
+       {/* {data.map((item,index)=>(
+  <Styled.OurCultsSection id="Eventos">
+  <Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>
+  <Styled.CultsContainer >
+    <Styled.TittleDescripitionCults>{item.dia}</Styled.TittleDescripitionCults>
+    <Styled.DescripitionCultsContainer>
+    <Styled.SubTittleDescripitionCults>{item.culto}</Styled.SubTittleDescripitionCults>
+    <Styled.TextDescripitionCults>{item.horario}</Styled.TextDescripitionCults>
+    </Styled.DescripitionCultsContainer>
+  </Styled.CultsContainer>
+  </Styled.OurCultsSection> */}
 
-              <Styled.SubTittleDescripitionCults>Escola Biblíca Dominical</Styled.SubTittleDescripitionCults>
-              <Styled.TextDescripitionCults>09h</Styled.TextDescripitionCults>
-              </Styled.DescripitionCultsContainer>
+<Styled.OurCultsSection id="Eventos">
+<Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>      
+<Styled.CultsContainer >
+        {data.map((item, index) => (
+        <div key={index}>
 
-              </Styled.CultsContainer>
-              <Styled.CultsContainer>
-              <Styled.TittleDescripitionCults>DOM</Styled.TittleDescripitionCults>
-              <Styled.DescripitionCultsContainer>
+          <Styled.DescripitionCultsContainer >
+    <Styled.TittleDescripitionCults>{item.dia}</Styled.TittleDescripitionCults>
+    <Styled.DescriptionCults>
+    <Styled.SubTittleDescripitionCults>{item.culto}</Styled.SubTittleDescripitionCults>
+    <Styled.TextDescripitionCults>{item.horario}</Styled.TextDescripitionCults>
+    </Styled.DescriptionCults>
+    
+          </Styled.DescripitionCultsContainer>
+          <Styled.LineHorizontal/>
+          </div>
 
-              <Styled.SubTittleDescripitionCults>Culto de Celebração</Styled.SubTittleDescripitionCults>
-              <Styled.TextDescripitionCults>18h</Styled.TextDescripitionCults>
-              </Styled.DescripitionCultsContainer>
+        ))}
+  </Styled.CultsContainer>
+      </Styled.OurCultsSection >
 
-            </Styled.CultsContainer>
-          </Styled.OurCultsContainer>
-        </Styled.OurCultsSection>
+ 
+
+
 
         <Slideshow />
-
-      
      
         <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
