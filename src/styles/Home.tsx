@@ -38,8 +38,10 @@ export const CultsContainer = styled.div`
   border: 1px;
   padding: 10px 5px 5px 20px;
   text-align: center;
-  background: #a9a9a9;
   margin-bottom: 20px;
+  background: linear-gradient(180deg, rgba(7,34,71,1) 2%, rgba(17,64,104,1) 25%, rgba(47,148,196,1) 66%);
+
+  opacity:0.8;
   border-radius: 0px 40px 40px 0px;
 
   &:nth-child(1) {
@@ -97,11 +99,10 @@ export const DescripitionCultsContainer = styled.div`
 export const TittleDescripitionCults = styled.h1`
   display: flex;
   color: black;
-  font-weight: 700;
   margin-right: 20px;
   @media (min-width: 1024px) {
     display: flex;
-    color: #565656;
+    color: black;
     font-size: 30px;
   }
 `;
@@ -110,7 +111,7 @@ export const SubTittleDescripitionCults = styled.h2`
   display: flex;
   font-weight: 700;
   font-size: 14px;
-  color: #424242;
+  color: black;
 `;
 
 export const TextDescripitionCults = styled.h3`
@@ -138,7 +139,7 @@ export const WhoWeAre = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: black;
+  background: linear-gradient(180deg, rgba(7,34,71,1) 2%, rgba(17,64,104,1) 25%, rgba(47,148,196,1) 66%);
   border-radius: 50px 0px 50px 0px;
   padding: 0px 10px;
 `;
@@ -155,7 +156,8 @@ export const WhoWeAreImage = styled.img`
   display: flex;
   width: 120px;
   height: 120px;
-  border-radius: 150px;
+  border-radius: 80px;
+  opacity:0.8;
   @media (min-width: 1024px) {
     display: flex;
   }
@@ -240,12 +242,13 @@ export const IconYoutube = styled(YouTubeIcon)`
 
 export const Location = styled.section`
   display: flex;
-  background-color: black;
+  background: linear-gradient(180deg, rgba(7,34,71,1) 2%, rgba(17,64,104,1) 25%, rgba(47,148,196,1) 66%);
   border-radius: 50px 0px 50px 0px;
 `;
 
 export const BackgroundLocationContainer = styled.div`
   display: flex;
+  
   background-image: url("/images/BackgroundLocation.png");
   background-size: cover;
   opacity: 80%;
@@ -271,6 +274,7 @@ export const LocationSubTitle = styled.h2`
 
 export const LocationAppsContainer = styled.div`
   display: flex;
+  opacity:0.8;
 `;
 export const AppsLinks = styled.a`
   margin-top: 30px;

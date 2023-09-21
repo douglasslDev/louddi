@@ -24,7 +24,7 @@ const Home: React.FC = () => {
       <Header />
 
       <main className="flex min-h-screen flex-col ">
-        <Styled.OurCultsSection id="Programação">
+        <Styled.OurCultsSection id="Eventos">
           <Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>
           <Styled.OurCultsContainer>
             <Styled.CultsContainer>
@@ -58,6 +58,8 @@ const Home: React.FC = () => {
 
         <Slideshow />
 
+      
+     
         <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
           <Styled.WhoWeAreImage src="./images/WhoWeAre2.jpg" />
@@ -92,7 +94,6 @@ const Home: React.FC = () => {
             </Styled.IconsLinks>
           </Styled.SocialMediaImagesContainer>
         </Styled.SocialMediaContainer>
-
         <Styled.Location id="location">
           <Styled.BackgroundLocationContainer>
             <Styled.LocationSubTitle>Navegue até aqui</Styled.LocationSubTitle>
