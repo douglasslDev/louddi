@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export const Images = styled(Image)`
   display: flex;
-  width: 100%;
-  height: 400px;
+  
   object-fit: fill;
+
   @media (min-width: 1024px) {
     display: flex;
     width: 60%;

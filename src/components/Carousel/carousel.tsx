@@ -8,7 +8,7 @@ import React from "react";
 import Carousel from "react-material-ui-carousel";
 
 function SlideShow() {
-  const images = ["/images/programacao1.jpeg", "/images/programacao2.jpeg", "/images/programacao3.jpeg"];
+  const images = ["/images/programacao.jpeg", "/images/programacao2.jpeg"];
 
   return (
     <Styled.CarouselContainer>
