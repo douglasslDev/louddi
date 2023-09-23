@@ -342,6 +342,7 @@ export const CollaborateTextdInformation = styled.h1`
   font-size: 18px;
   margin-bottom: 10px;
   text-align: center;
+  color: black;
 `;
 
 export const BankContainer = styled.div`
