@@ -24,9 +24,7 @@ function SlideShow() {
         position: "relative"
       }
     }}
-
-   
-     >
+    >
         {images.map((each, index) => (
           <Styled.ImagesContainer key={index}>
             <Styled.Images src={each} alt="programacao"  width={600} height={450}/>

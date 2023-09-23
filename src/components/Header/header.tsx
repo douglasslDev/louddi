@@ -6,7 +6,7 @@ import * as Styled from "./styles";
 
 const Header = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    // first prevent the default behavior
+    
     e.preventDefault();
     // get the href and remove everything before the hash (#)
     const href = e.currentTarget.href;
@@ -22,7 +22,7 @@ const Header = () => {
     <Styled.container>
       <Styled.HeaderContainer>
         <Styled.NavContainer>
-        <Styled.logoImage src="/images/WhoWeAre-removebg.png" alt="logoIgreja" />
+        <Styled.logoImage src="/images/logoBranca.png" alt="logoIgreja" />
         <Styled.NavList>
           <Styled.NavItem>
             <Styled.Links href="#Eventos"onClick={handleScroll}>Eventos</Styled.Links>
@@ -31,26 +31,20 @@ const Header = () => {
             <Styled.Links href="#whoweare" onClick={handleScroll}>
               Quem Somos
             </Styled.Links>
-          </Styled.NavItem>
-         
-          
-         
+          </Styled.NavItem>   
           <Styled.NavItem>
             <Styled.Links href="#collaborate" onClick={handleScroll}>
               Colabore
             </Styled.Links>
           </Styled.NavItem>
-        </Styled.NavList>
-        
+        </Styled.NavList>       
         </Styled.NavContainer>
         <Styled.WhereContainer href="#location" onClick={handleScroll}>
           <Styled.Where>
         Onde Estamos
         </Styled.Where>
-          <Styled.IconWhere />
-        
-      </Styled.WhereContainer>
-    
+          <Styled.IconWhere />      
+      </Styled.WhereContainer>   
       </Styled.HeaderContainer>
     </Styled.container>
   );

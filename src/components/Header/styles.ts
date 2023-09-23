@@ -4,8 +4,7 @@ import styled from "styled-components";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export const container = styled.div`
-  display: flex;
-  
+  display: flex; 
 `;
 
 export const HeaderContainer = styled.div`
@@ -74,6 +73,7 @@ export const NavItem = styled.li`
     transition: 0.3;
     opacity: 100%;
   }
+  
   @media (min-width: 1024px) {
     font-size: 25px;
     display: flex;
@@ -111,6 +111,7 @@ export const WhereContainer = styled(Link)`
   &:hover {
     opacity: 100%;
   }
+
   @media (min-width: 1024px) {
     display: flex;
     color: white;

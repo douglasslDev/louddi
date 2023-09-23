@@ -31,8 +31,9 @@ export const BottomContainer = styled.div``;
 export const Logo = styled.img`
 display: flex;
 width: 80px;
-  height: 70px;
+  height: 80px;
 `;
+
 export const NavContainer = styled.ul`
   display: flex;
   flex-direction: column;
@@ -42,6 +43,7 @@ export const NavContainer = styled.ul`
     margin-right: 10px;
   }
 `;
+
 export const NavTitles = styled.li`
 display:flex;
 margin-bottom: 8px;
@@ -50,6 +52,7 @@ font-size: 16px;
 font-family: serif;
 font-weight: 500;
 `;
+
 export const NavItems = styled.li`
 display:flex;
 text-align: center;
@@ -58,10 +61,7 @@ font-size: 10px;
 color: #d3d3d3;
 &:hover{
 border-bottom:  solid 1px #d3d3d3;
-
 }
-
-
 `;
 
 export const AppsContainer = styled.div`
@@ -69,12 +69,14 @@ display:flex;
 flex-direction: column;
 margin-left: 20px;
 `;
+
 export const Links = styled.a`
 display:flex;
 &:not(:last-child){
   margin-bottom: 5px;
 }
 `;
+
 export const AppsImages=styled.img`
 display:flex;
 width:35px;

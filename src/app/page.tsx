@@ -35,21 +35,15 @@ const data =[
   horario:"18h",
  },
 ]
-
   return (
     <>
       <Header />
-
       <main className="flex min-h-screen flex-col ">
-
-     
-
 <Styled.OurCultsSection id="Eventos">
 <Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>      
 <Styled.CultsContainer >
         {data.map((item, index) => (
         <div key={index}>
-
           <Styled.DescripitionCultsContainer >
     <Styled.TittleDescripitionCults>{item.dia}</Styled.TittleDescripitionCults>
     <Styled.DescriptionCults>
@@ -60,14 +54,10 @@ const data =[
           </Styled.DescripitionCultsContainer>
           <Styled.LineHorizontal/>
           </div>
-
         ))}
   </Styled.CultsContainer>
       </Styled.OurCultsSection >
-
-
         <Slideshow />
-     
         <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
           <Styled.WhoWeAreImage src="./images/WhoWeAre2.jpg" />
@@ -105,7 +95,6 @@ const data =[
         <Styled.Location id="location">
           <Styled.BackgroundLocationContainer>
             <Styled.LocationSubTitle>Navegue até aqui</Styled.LocationSubTitle>
-
             <Styled.LocationAppsContainer>
               <Styled.AppsLinks
                 href="https://m.uber.com/ul/?action=setPickup&client_id=2oF5ktPb2_uSSil-SJyE1_GWuDBQ54-x&pickup=my_location&dropoff[formatted_address]=Minist%C3%A9rio%20LOUDDI%20Nil%C3%B3polis%20-%20Travessa%20Riachuelo%20-%20Centro%2C%20Nil%C3%B3polis%20-%20RJ%2C%20Brasil&dropoff[latitude]=-22.813384&dropoff[longitude]=-43.424639
@@ -128,7 +117,6 @@ const data =[
               </Styled.AppsLinks>
             </Styled.LocationAppsContainer>
             <Styled.LocationTitle>Endereço:</Styled.LocationTitle>
-
             <Styled.Adress>
               Travessa Riachuelo 99, Nilópolis-RJ CEP: 26520-590
             </Styled.Adress>
