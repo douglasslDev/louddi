@@ -34,7 +34,7 @@ export const HeaderContainer = styled.div`
 export const NavContainer = styled.div`
   display: flex;
   align-items: center;
-  padding: 0 10px;
+  padding:  10px;
   justify-content: space-around;
   width: 100%;
 
@@ -48,7 +48,7 @@ export const NavContainer = styled.div`
 
 export const logoImage = styled.img`
   display: flex;
-  width: 100px;
+  width: 70px;
   height: 70px;
 
   @media (min-width: 1024px) {
@@ -65,10 +65,9 @@ export const NavList = styled.ul`
 
 export const NavItem = styled.li`
   display: flex;
-  color: black;
-  font-weight: 500;
   margin-right: 10px;
   font-size: 12px;
+
   opacity: 80%;
   &:hover {
     border-bottom: solid black 1px;
@@ -78,7 +77,6 @@ export const NavItem = styled.li`
   @media (min-width: 1024px) {
     font-size: 25px;
     display: flex;
-    color: black;
     font-weight: 600;
 
     margin-right: 25px;
@@ -91,7 +89,8 @@ export const NavItem = styled.li`
 
 export const Links = styled(Link)`
 font-size: 14px;
-font-weight: 600;
+font-weight: 400;
+color: white;
 `;
 
 export const WhereContainer = styled(Link)`

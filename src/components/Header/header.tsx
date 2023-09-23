@@ -22,7 +22,7 @@ const Header = () => {
     <Styled.container>
       <Styled.HeaderContainer>
         <Styled.NavContainer>
-        <Styled.logoImage src="/images/logo2.png" alt="logoIgreja" />
+        <Styled.logoImage src="/images/WhoWeAre-removebg.png" alt="logoIgreja" />
         <Styled.NavList>
           <Styled.NavItem>
             <Styled.Links href="#Eventos"onClick={handleScroll}>Eventos</Styled.Links>
