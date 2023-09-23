@@ -88,7 +88,10 @@ export const NavItem = styled.li`
   }
 `;
 
-export const Links = styled(Link)``;
+export const Links = styled(Link)`
+font-size: 14px;
+font-weight: 600;
+`;
 
 export const WhereContainer = styled(Link)`
   display: flex;
@@ -133,4 +136,5 @@ export const IconWhere = styled(LocationOnIcon)`
 export const Where = styled.div`
   display: flex;
   margin-right: 4px;
+  font-family: serif;
 `;

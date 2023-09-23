@@ -42,17 +42,7 @@ const data =[
 
       <main className="flex min-h-screen flex-col ">
 
-       {/* {data.map((item,index)=>(
-  <Styled.OurCultsSection id="Eventos">
-  <Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>
-  <Styled.CultsContainer >
-    <Styled.TittleDescripitionCults>{item.dia}</Styled.TittleDescripitionCults>
-    <Styled.DescripitionCultsContainer>
-    <Styled.SubTittleDescripitionCults>{item.culto}</Styled.SubTittleDescripitionCults>
-    <Styled.TextDescripitionCults>{item.horario}</Styled.TextDescripitionCults>
-    </Styled.DescripitionCultsContainer>
-  </Styled.CultsContainer>
-  </Styled.OurCultsSection> */}
+     
 
 <Styled.OurCultsSection id="Eventos">
 <Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>      
@@ -74,9 +64,6 @@ const data =[
         ))}
   </Styled.CultsContainer>
       </Styled.OurCultsSection >
-
- 
-
 
 
         <Slideshow />

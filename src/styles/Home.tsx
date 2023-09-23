@@ -5,6 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import ArrowUpwardRoundedIcon from "@mui/icons-material/ArrowUpwardRounded";
 import Link from "next/link";
+import '../../fonts/fonts.css'
 
 export const OurCultsSection = styled.section`
   display: flex;
@@ -28,13 +29,14 @@ export const OurCultsContainer = styled.div`
   @media (min-width: 1024px) {
     display: flex;
     flex-direction: row;
-justify-content:space-evenly;
+    justify-content:space-evenly;
   }
 `;
 
 export const CultsContainer = styled.ul`
   display: flex;
-flex-direction: column;
+  flex-direction: column;
+  padding: 0px 10px;
 
   @media (min-width: 1024px) {
     display: flex;
@@ -50,12 +52,13 @@ border-bottom-width: 1px;
 
 `;
 
-export const TitleOurCultsSection = styled.div`
+export const TitleOurCultsSection = styled.h1`
   display: flex;
-  font-size: 28px;
+  
   justify-content: center;
+  font-size: 32px;
   margin-bottom: 20px;
-  padding-left: 20px;
+  font-family: 'serif';
   @media (min-width: 1024px) {
     display: flex;
     font-size: 35px;
@@ -136,9 +139,11 @@ export const WhoWeAre = styled.section`
 export const WhoWeAreTitle = styled.h1`
   display: flex;
   color: #d3d3d3;
-  font-size: 30px;
   margin-top: 25px;
   margin-bottom: 10px;
+  font-size: 32px;
+  font-family: serif;
+  margin-bottom: 20px;
 `;
 
 export const WhoWeAreImage = styled.img`
@@ -177,11 +182,12 @@ export const SocialMediaContainer = styled.section`
 
 export const SocialMediaTitle = styled.h1`
   display: flex;
-  font-size: 28px;
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
   color: black;
+  font-size: 32px;
+  font-family: serif;
 `;
 
 export const SocialMediaText = styled.h2`
@@ -252,6 +258,7 @@ export const LocationTitle = styled.h1`
   display: flex;
   color: white;
   margin-top: 20px;
+  font-size: 20px;
 `;
 
 export const LocationSubTitle = styled.h2`
@@ -292,13 +299,16 @@ export const CollaborateContainer = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 0px 20px;
 `;
 
 export const Collaborate = styled.h1`
   display: flex;
   margin-top: 20px;
-  font-size: 34px;
+  font-size: 32px;
+  font-family: serif;
   margin-bottom: 15px;
+text-align: center;
 `;
 
 export const PixContainer = styled.div`

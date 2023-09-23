@@ -630,5 +630,19 @@ video {
 body {
   color: rgb(var(--foreground-rgb));
   background: #fff;
+ 
 }
 
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./fonts/fonts.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+    font-family: 'FontTitleSection';
+    src: url('/fonts/NotoSansLinearB-Regular.ttf') format('NotoSansLinearB-Regular'),
+      
+    /* Outros estilos, como font-weight e font-style, podem ser definidos aqui */
+  }
+  
+  body {
+    font-family: 'FontTitleSection', sans-serif;
+  }

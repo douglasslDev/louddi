@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'FontTitleSection';
+    src: url('/fonts/NotoSansLinearB-Regular.ttf') format('NotoSansLinearB-Regular'),
+      
+    /* Outros estilos, como font-weight e font-style, podem ser definidos aqui */
+  }
+  
+  body {
+    font-family: 'FontTitleSection', sans-serif;
+  }

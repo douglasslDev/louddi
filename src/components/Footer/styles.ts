@@ -9,11 +9,11 @@ export const Container = styled.div`
 `;
 export const FooterContainer = styled.div`
   display: flex;
-  background: black;
+  background: linear-gradient(180deg, rgba(7,34,71,1) 2%, rgba(17,64,104,1) 25%, rgba(47,148,196,1) 66%);
   width: 100%;
   height: 100%;
   align-items: center;
-justify-content: center;
+  justify-content: center;
  
 
 `;

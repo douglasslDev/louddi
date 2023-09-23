@@ -6,7 +6,7 @@ export const Images = styled(Image)`
   
   object-fit: fill;
   border-radius: 50px;
-
+width: 100%;
   @media (min-width: 1024px) {
     display: flex;
     width: 60%;
