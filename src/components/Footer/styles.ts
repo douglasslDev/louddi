@@ -30,7 +30,7 @@ export const BottomContainer = styled.div``;
 
 export const Logo = styled.img`
 display: flex;
-width: 100px;
+width: 80px;
   height: 70px;
 `;
 export const NavContainer = styled.ul`
@@ -46,7 +46,9 @@ export const NavTitles = styled.li`
 display:flex;
 margin-bottom: 8px;
 color: #d3d3d3;
-font-size: 14px;
+font-size: 16px;
+font-family: serif;
+font-weight: 500;
 `;
 export const NavItems = styled.li`
 display:flex;
@@ -75,10 +77,12 @@ display:flex;
 `;
 export const AppsImages=styled.img`
 display:flex;
-width:30px;
-height: 30px;
-color: white;
-
+width:35px;
+height: 35px;
+background: white ;
+border-radius: 30px;
+padding: 5px;
+opacity: 0.8;
 `;
 
 

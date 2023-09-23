@@ -21,7 +21,7 @@ export const HeaderContainer = styled.div`
     display: flex;
     background-image: url("/images/background5.jpg");
     background-size: cover;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -48,7 +48,7 @@ export const NavContainer = styled.div`
 
 export const logoImage = styled.img`
   display: flex;
-  width: 120px;
+  width: 100px;
   height: 70px;
 
   @media (min-width: 1024px) {
@@ -60,6 +60,7 @@ export const logoImage = styled.img`
 
 export const NavList = styled.ul`
   display: flex;
+  
 `;
 
 export const NavItem = styled.li`

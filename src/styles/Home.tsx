@@ -334,12 +334,14 @@ export const PixQrCode = styled.img`
 export const CollaborateTextdDescription = styled.h2`
   display: flex;
   font-size: 12px;
+  text-align: center;
   color: #888;
 `;
 export const CollaborateTextdInformation = styled.h1`
   display: flex;
   font-size: 18px;
   margin-bottom: 10px;
+  text-align: center;
 `;
 
 export const BankContainer = styled.div`

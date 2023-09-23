@@ -6,7 +6,7 @@ const Footer = () => {
         <Styled.TopContainer>
           <Styled.NavContainer>
             <Styled.NavItems>
-              <Styled.Logo src="/images/logoWhite.png" alt="logoIgreja" />
+              <Styled.Logo src="/images/WhoWeAre-removebg.png" alt="logoIgreja" />
             </Styled.NavItems>
           </Styled.NavContainer>
           <Styled.NavContainer>
