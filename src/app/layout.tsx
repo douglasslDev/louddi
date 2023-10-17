@@ -19,10 +19,9 @@ export default function RootLayout({
     
   <html lang="en">
     <Head>
-        <link rel="icon" href="/background3.jpg" />
+        <link rel="icon" href="/backgr  ound3.jpg" />
       </Head>
-   
-
+  
       <body >{children}</body>
     </html>
     

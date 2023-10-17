@@ -1,5 +1,4 @@
 "use client";
-
 import Header from "@/components/Header/header";
 import * as Styled from "./../styles/Home";
 import Footer from "@/components/Footer/footer";
@@ -7,12 +6,9 @@ import Slideshow from "@/components/Carousel/carousel";
 
 const Home: React.FC = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    // first prevent the default behavior
     e.preventDefault();
-    // get the href and remove everything before the hash (#)
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "");
-    // get the element by id and use scrollIntoView
     const elem = document.getElementById(targetId);
     elem?.scrollIntoView({
       behavior: "smooth",
@@ -40,27 +36,33 @@ const data =[
       <Header />
       <main className="flex min-h-screen flex-col ">
 <Styled.OurCultsSection id="Eventos">
-<Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>      
+<Styled.TitleOurCultsSection>Nossos Cultos</Styled.TitleOurCultsSection>     
+<Styled.CultsProgamationContainer>
 <Styled.CultsContainer >
         {data.map((item, index) => (
-        <div key={index}>
+        <Styled.CultsContent key={index}>
+
           <Styled.DescripitionCultsContainer >
+
     <Styled.TittleDescripitionCults>{item.dia}</Styled.TittleDescripitionCults>
     <Styled.DescriptionCults>
     <Styled.SubTittleDescripitionCults>{item.culto}</Styled.SubTittleDescripitionCults>
     <Styled.TextDescripitionCults>{item.horario}</Styled.TextDescripitionCults>
     </Styled.DescriptionCults>
-    
           </Styled.DescripitionCultsContainer>
-          <Styled.LineHorizontal/>
-          </div>
+                    <Styled.LineHorizontal/>
+
+          </Styled.CultsContent>
         ))}
+
   </Styled.CultsContainer>
-      </Styled.OurCultsSection >
         <Slideshow />
+        </Styled.CultsProgamationContainer> 
+      </Styled.OurCultsSection >
         <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
-          <Styled.WhoWeAreImage src="./images/WhoWeAre2.jpg" />
+          <Styled.WhoWeAreContent>
+          <Styled.WhoWeAreImage src="./images/WhoWeAre.jpg" />
           <Styled.WhoWeAreText>
             Em breve haverá mais detalhes sobre a história do Ministério Louddi
           </Styled.WhoWeAreText>
@@ -68,11 +70,14 @@ const data =[
             ...a fim de que sejas para salvação até os confins da terra Atos
             13:47
           </Styled.WhoAreSubText>
+          </Styled.WhoWeAreContent>
         </Styled.WhoWeAre>
+
         <Styled.SocialMediaContainer id="SocialMedia">
           <Styled.SocialMediaTitle>
             Siga-nos nas redes sociais
           </Styled.SocialMediaTitle>
+          
           <Styled.SocialMediaText>
             Siga nossas redes sociais para ser notificado a respeito de cultos,
             conferências, reuniões e sermões disponíveis para a sua edificação.

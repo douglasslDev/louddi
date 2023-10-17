@@ -9,7 +9,7 @@ export const container = styled.div`
 
 export const HeaderContainer = styled.div`
   display: flex;
-  background-image: url("/images/background5.jpg");
+  background-image: url("/images/background5.jpg"); 
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@ export const NavContainer = styled.div`
   align-items: center;
   padding:  10px;
   justify-content: space-around;
-  width: 100%;
+  width: 80%;
 
   @media (min-width: 1024px) {
     display: flex;
@@ -52,8 +52,8 @@ export const logoImage = styled.img`
 
   @media (min-width: 1024px) {
     display: flex;
-    width: 300px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
   }
 `;
 
@@ -67,28 +67,27 @@ export const NavItem = styled.li`
   margin-right: 10px;
   font-size: 12px;
 
-  opacity: 80%;
+  opacity: 0.7;
   &:hover {
     border-bottom: solid black 1px;
     transition: 0.3;
-    opacity: 100%;
+    opacity: 1;
   }
   
   @media (min-width: 1024px) {
-    font-size: 25px;
+    font-size: 24px;
     display: flex;
     font-weight: 600;
 
     margin-right: 25px;
     &:hover {
-      border-bottom: solid black 1px;
+      border-bottom: solid white 1px;
       transition: 0.3;
     }
   }
 `;
 
 export const Links = styled(Link)`
-font-size: 14px;
 font-weight: 400;
 color: white;
 `;

@@ -5,7 +5,7 @@ import * as Styled from "./styles";
 import MinimizeIcon from '@mui/icons-material/Minimize';
 
 import React from "react";
-import Carousel from "react-material-ui-carousel";
+  import Carousel from "react-material-ui-carousel";
 
 function SlideShow() {
   const images = ["/images/programacao.jpeg", "/images/programacao2.jpeg"];
@@ -15,7 +15,7 @@ function SlideShow() {
       <Carousel 
      animation="slide"
     navButtonsAlwaysVisible
-    IndicatorIcon={<MinimizeIcon/>} // Previous Example
+    IndicatorIcon={<MinimizeIcon/>}
 
     indicatorContainerProps={{
       style: {

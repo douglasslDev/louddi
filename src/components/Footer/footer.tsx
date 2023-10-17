@@ -23,7 +23,7 @@ const Footer = () => {
           </Styled.NavContainer>
           <Styled.NavContainer>
             <Styled.NavTitles>Onde Estamos</Styled.NavTitles>
-            <Styled.NavItems>
+            <Styled.NavItems >
               Travessa Riachuelo 99 Nilópolis-RJ CEP: 26520-590
             </Styled.NavItems>
           </Styled.NavContainer>
@@ -52,7 +52,7 @@ const Footer = () => {
             </Styled.AppsContainer>
           </Styled.NavContainer>
         </Styled.TopContainer>
-        <Styled.BottomContainer></Styled.BottomContainer>
+        <Styled.BottomContainer><Styled.BottomContainerLink href="https://portifolio-douglassldev.vercel.app/pt  " target="_blank"> © 2023 Douglas Santos Leite.</Styled.BottomContainerLink> </Styled.BottomContainer>
       </Styled.FooterContainer>
     </Styled.Container>
   );

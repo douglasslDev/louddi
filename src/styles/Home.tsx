@@ -11,15 +11,15 @@ export const OurCultsSection = styled.section`
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-  padding: 0px 20px;
+  padding: 0px 5px;
   margin-top: 20px;
 
   @media (min-width: 1024px) {
     display: flex;
     margin-bottom: 10px;
-    padding: 0px 0px;
+    padding: 0px 20px;
     margin-top: 20px;
-  }
+}
 `;
 
 export const OurCultsContainer = styled.div`
@@ -29,44 +29,57 @@ export const OurCultsContainer = styled.div`
   @media (min-width: 1024px) {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-  }
+
+}
 `;
 
 export const CultsContainer = styled.ul`
   display: flex;
   flex-direction: column;
-  padding: 0px 10px;
-
+  padding: 0px 20px;
   @media (min-width: 1024px) {
     display: flex;
   }
 `;
+export const CultsProgamationContainer = styled.div`
+    display: flex;
+    flex-direction: column;
 
-export const LineHorizontal = styled.div`
-border-bottom-width: 1px;
-  width: 300px;
-  margin-bottom: 25px;
-  margin-top: 10px;
-  background-color: linear-gradient(180deg, rgba(7,34,71,1) 2%, rgba(17,64,104,1) 25%, rgba(47,148,196,1) 66%);
-
+  @media (min-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+justify-content: space-evenly;
+}
 `;
 
+
+export const LineHorizontal = styled.div`
+border-bottom: 1px solid #ADC6D6;
+  width: 250px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+ 
+`;
+export const CultsContent = styled.div`
+display: flex;
+flex-direction: column;
+align-items: baseline;
+  @media (min-width: 1024px) {
+  }
+`;
 export const TitleOurCultsSection = styled.h1`
   display: flex;
-  
   justify-content: center;
-  font-size: 32px;
+  font-size: 34px;
+  color: #082246;
   margin-bottom: 20px;
   font-family: 'serif';
   @media (min-width: 1024px) {
     display: flex;
     font-size: 35px;
     font-weight: 500;
-    color:#565656;
     margin-bottom: 20px;
-
-
   }
 `;
 
@@ -89,12 +102,11 @@ align-items: baseline;
 
 export const TittleDescripitionCults = styled.h1`
   display: flex;
-  color: black;
+  color: #082246;
   margin-right: 20px;
   font-size: 20px;
   @media (min-width: 1024px) {
     display: flex;
-    color: black;
     font-size: 30px;
   }
 `;
@@ -103,12 +115,12 @@ export const SubTittleDescripitionCults = styled.h2`
   display: flex;
   font-weight: 700;
   font-size: 14px;
-  color: black;
+  color: #082246;
 `;
 
 export const TextDescripitionCults = styled.h3`
   display: flex;
-  color: black;
+  color: #ADC6D6;
   font-size: 12px;
   align-items: center;
   justify-content: center;
@@ -117,7 +129,6 @@ export const TextDescripitionCults = styled.h3`
 
   @media (min-width: 1024px) {
     display: flex;
-    color: black;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -136,6 +147,15 @@ export const WhoWeAre = styled.section`
   padding: 0px 10px;
 `;
 
+export const WhoWeAreContent = styled.div`
+    display: flex;
+flex-direction:column;
+align-items: center;
+margin-bottom: 20px;
+
+`;
+
+
 export const WhoWeAreTitle = styled.h1`
   display: flex;
   color: #d3d3d3;
@@ -153,7 +173,12 @@ export const WhoWeAreImage = styled.img`
   border-radius: 80px;
   opacity:0.8;
   @media (min-width: 1024px) {
+    width: 150px;
+    height: 150px;
     display: flex;
+    background: white;
+    border-radius: 150px;
+    margin-right: 40px;
   }
 `;
 export const WhoWeAreText = styled.h2`
@@ -179,6 +204,15 @@ export const SocialMediaContainer = styled.section`
   flex-direction: column;
   align-items: center;
 `;
+
+export const SocialMediaContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
+`;
+
 
 export const SocialMediaTitle = styled.h1`
   display: flex;
@@ -319,10 +353,12 @@ export const PixContainer = styled.div`
 `;
 
 export const PixLogo = styled.img`
+
   display: flex;
   width: 120px;
   height: 50px;
   margin-bottom: 15px;
+  
 `;
 
 export const PixQrCode = styled.img`

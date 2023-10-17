@@ -3,17 +3,12 @@ import Image from "next/image";
 
 export const Images = styled(Image)`
   display: flex;
-  
   object-fit: fill;
   border-radius: 50px;
-width: 100%;
-  @media (min-width: 1024px) {
-    display: flex;
-    width: 60%;
-    height: 450px;
-    object-fit: fill;
-    border-radius: 50px;
-  }
+  max-height: 800px;
+  min-width: 80%;
+
+
 `;
 
 export const ImagesContainer = styled.div`
@@ -26,4 +21,7 @@ export const CarouselContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  min-width: 300px;
+
+
 `;
