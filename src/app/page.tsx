@@ -106,19 +106,19 @@ const data =[
 "
                 target="_blank"
               >
-                <Styled.AppsImages src="/images/Uber.png" alt="Uber" />
+                <Styled.AppsImages src="/images/Uber.png" alt="Uber" width={80} height={80} />
               </Styled.AppsLinks>
               <Styled.AppsLinks
                 href="https://www.waze.com/en/live-map/directions/br/rj/ministerio-louddi-nilopolis?sjid=1670743611455035439-SA&to=place.ChIJG_xxcjVhmQARbJm4h4OgYWw"
                 target="_blank"
               >
-                <Styled.AppsImages src="/images/Waze.png" alt="Waze" />
+                <Styled.AppsImages src="/images/Waze.png" alt="Waze"  width={80} height={80} />
               </Styled.AppsLinks>
               <Styled.AppsLinks
                 href="https://goo.gl/maps/AAUUVhdpq4GiTnuFA"
                 target="_blank"
               >
-                <Styled.AppsImages src="/images/Maps.png" alt="Maps" />
+                <Styled.AppsImages src="/images/Maps.png" alt="Maps"  width={80} height={80}/>
               </Styled.AppsLinks>
             </Styled.LocationAppsContainer>
             <Styled.LocationTitle>Endereço:</Styled.LocationTitle>
