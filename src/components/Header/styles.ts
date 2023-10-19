@@ -34,8 +34,8 @@ export const NavContainer = styled.div`
   display: flex;
   align-items: center;
   padding:  10px;
-  justify-content: space-around;
-  width: 80%;
+  justify-content: space-between;
+  width: 90%;
 
   @media (min-width: 1024px) {
     display: flex;
@@ -47,8 +47,8 @@ export const NavContainer = styled.div`
 
 export const logoImage = styled.img`
   display: flex;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 
   @media (min-width: 1024px) {
     display: flex;

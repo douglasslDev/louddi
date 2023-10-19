@@ -178,7 +178,6 @@ export const WhoWeAreImage = styled.img`
     display: flex;
     background: white;
     border-radius: 150px;
-    margin-right: 40px;
   }
 `;
 export const WhoWeAreText = styled.h2`

@@ -62,7 +62,7 @@ const data =[
         <Styled.WhoWeAre id="whoweare">
           <Styled.WhoWeAreTitle>Quem Somos</Styled.WhoWeAreTitle>
           <Styled.WhoWeAreContent>
-          <Styled.WhoWeAreImage src="./images/WhoWeAre.jpg" />
+          <Styled.WhoWeAreImage alt="WhoWeAre" src="./images/WhoWeAre.jpg" />
           <Styled.WhoWeAreText>
             Em breve haverá mais detalhes sobre a história do Ministério Louddi
           </Styled.WhoWeAreText>
@@ -87,13 +87,13 @@ const data =[
               href="https://www.instagram.com/ministerio_louddi/"
               target="_blank"
             >
-              <Styled.IconInstagram />
+              <Styled.IconInstagram name="instagram" />
             </Styled.IconsLinks>
             <Styled.IconsLinks href="#" target="_blank">
-              <Styled.IconFacebook />
+              <Styled.IconFacebook name="facebook"/>
             </Styled.IconsLinks>
             <Styled.IconsLinks href="#" target="_blank">
-              <Styled.IconYoutube />
+              <Styled.IconYoutube  name="youtube"/>
             </Styled.IconsLinks>
           </Styled.SocialMediaImagesContainer>
         </Styled.SocialMediaContainer>

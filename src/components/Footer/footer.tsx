@@ -4,13 +4,14 @@ const Footer = () => {
     <Styled.Container>
       <Styled.FooterContainer>
         <Styled.TopContainer>
-          <Styled.NavContainer>
+          <Styled.LogoContainer>
             <Styled.NavItems>
               <Styled.Logo src="/images/logoBranca.png" alt="logoIgreja" />
             </Styled.NavItems>
-          </Styled.NavContainer>
+          </Styled.LogoContainer>
+
           <Styled.NavContainer>
-            <Styled.NavTitles>Navegação</Styled.NavTitles>
+            <Styled.NavTitles>Navegação:</Styled.NavTitles>
             <Styled.NavItems>
               <Styled.Links href="#">Programação</Styled.Links>
             </Styled.NavItems>
@@ -22,11 +23,13 @@ const Footer = () => {
             </Styled.NavItems>
           </Styled.NavContainer>
           <Styled.NavContainer>
-            <Styled.NavTitles>Onde Estamos</Styled.NavTitles>
+            <Styled.NavTitles>Onde Estamos:</Styled.NavTitles>
             <Styled.NavItems >
               Travessa Riachuelo 99 Nilópolis-RJ CEP: 26520-590
+
             </Styled.NavItems>
           </Styled.NavContainer>
+          
           <Styled.NavContainer>
             <Styled.AppsContainer>
               <Styled.Links
