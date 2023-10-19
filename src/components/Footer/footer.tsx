@@ -24,10 +24,10 @@ const Footer = () => {
           </Styled.NavContainer>
           <Styled.NavContainer>
             <Styled.NavTitles>Onde Estamos:</Styled.NavTitles>
-            <Styled.NavItems >
+            <Styled.NavAdress >
               Travessa Riachuelo 99 Nilópolis-RJ CEP: 26520-590
 
-            </Styled.NavItems>
+            </Styled.NavAdress>
           </Styled.NavContainer>
           
           <Styled.NavContainer>

@@ -80,13 +80,11 @@ color: #d3d3d3;
 font-size: 24px;
 font-weight: 700;
 font-family: serif;
-font-wight: 500;
 `;
 
 export const NavItems = styled.li`
 display:flex;
 text-align: center;
-max-width: 170px;
 font-size: 16px;
 margin-bottom: 8px;
 color: #d3d3d3;
@@ -95,6 +93,15 @@ border-bottom:  solid 1px #d3d3d3;
 }
 
 `;
+export const NavAdress = styled.li`
+display:flex;
+text-align: center;
+max-width: 170px;
+font-size: 16px;
+margin-bottom: 8px;
+color: #d3d3d3;
+`;
+
 
 export const AppsContainer = styled.div`
 display:flex;
